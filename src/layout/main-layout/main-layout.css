@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background: tan;
+}
+
+.text {
+    color: grey;
+    font-size: large;
+    text-decoration: none;
+}

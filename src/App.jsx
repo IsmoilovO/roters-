@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router-dom"
 import { Home } from "./pages/home/home"
 import { Users } from "./pages/users/users"
-import { UserDetail } from "./pages/user/user-detail"
+import { UserDetail } from "./pages/user/user-datail"
 import { MainLayout } from "./layout/main-layout/main-layout"
 import { Profile } from "./pages/profile/profile"
 import { UserLayout } from "./layout/user-layout/user-layout"
-import { ChangePassword } from "./pages/profile/change-password"
-import { Address } from "./pages/profile/address"
+import { ChangePassword } from "./pages/profile/change-pasword"
+import { Address } from "./pages/profile/adress"
 
 
 function App() {

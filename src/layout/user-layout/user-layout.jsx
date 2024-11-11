@@ -9,10 +9,10 @@ export const UserLayout = () => {
     }
     return (
         <div style={{ display: 'flex', gap: "20px" }}>
-            <div style={{ backgroundColor: "magenta", padding: "30px", display: "flex", flexDirection: "column", gap: "20px", height: "100vh", width: "300px" }}>
-                <Link to={'/profile'}>Profile</Link>
-                <Link to={'/profile/address'}>Address</Link>
-                <Link to={'/profile/change-password'}>ChangePassword</Link>
+            <div style={{ backgroundColor: "tan", padding: "30px", display: "flex", flexDirection: "column", gap: "20px", height: "100vh", width: "300px" }}>
+                <Link style={{ color: 'grey', textDecoration: 'none' }} to={'/profile'}>Profile</Link>
+                <Link style={{ color: 'grey', textDecoration: 'none' }} to={'/profile/address'}>Address</Link>
+                <Link style={{ color: 'grey', textDecoration: 'none' }} to={'/profile/change-password'}>ChangePassword</Link>
             </div>
             <div>
                 <Outlet />

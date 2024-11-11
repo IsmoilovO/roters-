@@ -1,15 +1,15 @@
-
+import './main-layout.css'
 import { Link, Outlet } from 'react-router-dom';
 
 export const MainLayout = () => {
     return (
         <>
-            <header style={{ backgroundColor: "magenta", padding: "30px", display: "flex", justifyContent: "center", gap: "20px" }}>
-                <Link to={'/'}>Home</Link>
-                <Link to={'/users'}>Users</Link>
-                <Link to={'/profile'}>Profile</Link>
+            <header className='header'>
+                <Link className='text' to={'/'}>Home</Link>
+                <Link className='text' to={'/users'}>Users</Link>
+                <Link className='text' to={'/profile'}>Profile</Link>
             </header>
-            <main>
+            <main className='menu'>
                 <Outlet />
             </main>
             <footer>footer</footer>
